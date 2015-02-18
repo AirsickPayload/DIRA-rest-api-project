@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence" version="1.0">
+
+  <persistence-unit name="myUnit">
+    <description>My Persistence Unit</description>
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>pl.edu.uam.restapi.storage.entity.UserEntity</class>
+      <class>pl.edu.uam.restapi.storage.entity.StudentEntity</class>
+  </persistence-unit>
+
+</persistence>
